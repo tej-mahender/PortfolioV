@@ -1,0 +1,63 @@
+span{
+    color: rgb(135, 128, 231);
+}
+.dive{
+    color: white;
+    background-color:  rgb(135, 128, 231);
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+.dive:hover{
+    background-color:  rgb(109, 100, 225);
+}
+.styled-heading {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #222;
+}
+
+.thin {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-left: 8px;
+  color: #555;
+}
+
+.boldname {
+  font-size: 3rem;
+  color: #111;
+  position: relative;
+  display: inline-block;
+}
+
+/* 🔽 This adds the underline like the Portfolio image */
+.name::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #aaa;
+  margin: 4px auto 0;
+}
+
+.dot {
+  color: rgb(109, 100, 225);
+  font-size: 3rem;
+  margin-left: 2px;
+}
+
+.subtext {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 5px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
